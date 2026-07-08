@@ -19,10 +19,6 @@
 - user_whole_journey_table_month (1065584 lines)
 <img width="841" height="348" alt="618559924-87eb2390-1322-4d5c-9ef8-1b39c5038bdc" src="https://github.com/user-attachments/assets/87272510-e61b-4d40-b115-a4f1201de202" />
 <img width="1920" height="957" alt="618560259-495e9b67-1da0-4500-8a34-c2f2b74cf362" src="https://github.com/user-attachments/assets/422c8395-c4c5-482c-8ff3-483f75518f34" />
-
-- draft_title_table_month (935 line)
-<img width="1920" height="911" alt="618561908-c74c7eb6-bdcf-4059-b6fa-a7f201a756e2" src="https://github.com/user-attachments/assets/4de03e52-eb11-445b-a3f6-23224155ec2d" />
-
 - draft_theme_table_month (42980 lines)
 <img width="1920" height="911" alt="618561908-c74c7eb6-bdcf-4059-b6fa-a7f201a756e2" src="https://github.com/user-attachments/assets/7907cf62-5058-46d6-8f22-f91c598651f7" />
 - unique_user_count (feature table only 5083 lines )
@@ -94,7 +90,7 @@
 - 6605 lines
 
 <img width="1920" height="911" alt="617910630-a530ae20-e017-4b1b-9656-edb6097a7c1b" src="https://github.com/user-attachments/assets/ac21fec3-e949-4ec9-9380-79d84efaf13f" />
-<img width="1920" height="947" alt="617974145-d7f488da-0b47-487f-a660-512b3da492ef" src="https://github.com/user-attachments/assets/a425d893-7e71-4d95-8e81-5d00d4b20807" />
+
 
 - hong-kong-project.analytics_332614377.draft_theme_table
   
@@ -112,8 +108,7 @@
 - just dt (page title) , theme
 - 260 lines
 <img width="1920" height="947" alt="617974956-87a4c400-ed1f-4b14-b5e8-208c6e7f6d10" src="https://github.com/user-attachments/assets/11629767-3cdb-459c-9016-e37146f2f6d4" />
-
-
+<img width="1920" height="947" alt="617974145-d7f488da-0b47-487f-a660-512b3da492ef" src="https://github.com/user-attachments/assets/a425d893-7e71-4d95-8e81-5d00d4b20807" />
 - hong-kong-project.analytics_332614377.draft_title_table
 
       CREATE OR REPLACE TABLE `hong-kong-project.analytics_332614377.draft_title_table` AS
