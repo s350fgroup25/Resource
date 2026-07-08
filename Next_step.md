@@ -22,12 +22,11 @@
 - draft_title_table_month (935 line)
 <img width="1920" height="911" alt="618561908-c74c7eb6-bdcf-4059-b6fa-a7f201a756e2" src="https://github.com/user-attachments/assets/4de03e52-eb11-445b-a3f6-23224155ec2d" />
 
-
 - draft_theme_table_month (42980 lines)
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/c74c7eb6-bdcf-4059-b6fa-a7f201a756e2" />
-
+<img width="1920" height="911" alt="618561908-c74c7eb6-bdcf-4059-b6fa-a7f201a756e2" src="https://github.com/user-attachments/assets/7907cf62-5058-46d6-8f22-f91c598651f7" />
 - unique_user_count (feature table only 5083 lines )
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/a14a7abf-8e5d-4392-be35-eb980d1e658a" />
+<img width="1920" height="911" alt="618561372-a14a7abf-8e5d-4392-be35-eb980d1e658a" src="https://github.com/user-attachments/assets/7a03233d-0ffe-404a-af2b-12c79f234cdf" />
+
 
 
 ## Feature extraction (by day (events_20260705) )
@@ -35,7 +34,8 @@
 ### 1. user whole journey table :
 - hong-kong-project.analytics_332614377.user_whole_journey_table
 - The date is 20260705, with a total of 68240 rows, and is only members 
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/824ad26e-b78e-4b51-9abf-04239e2c7193" />
+<img width="1920" height="911" alt="617469723-824ad26e-b78e-4b51-9abf-04239e2c7193" src="https://github.com/user-attachments/assets/e9311046-e4b0-4201-8117-77fa42558feb" />
+
 
       CREATE OR REPLACE TABLE `hong-kong-project.analytics_332614377.user_whole_journey_table` AS
       WITH users_with_id AS (
@@ -69,7 +69,8 @@
       ORDER BY user_pseudo_id, session_time, event_timestamp;
 
 ### 2. Event name :
-  <img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/f15b9dfc-4219-454a-b70d-fa9612d5e1fe" />
+<img width="1920" height="911" alt="617470491-f15b9dfc-4219-454a-b70d-fa9612d5e1fe" src="https://github.com/user-attachments/assets/c74fccb4-eab1-4a97-b435-d1109e8134f0" />
+
   
             WITH event_stats AS (
             SELECT
@@ -90,8 +91,9 @@
 3.1 draft theme table: 
 - have dl (page location (URL)), dt (page title) , theme
 - 6605 lines
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/a530ae20-e017-4b1b-9656-edb6097a7c1b" />
-<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/d7f488da-0b47-487f-a660-512b3da492ef" />
+
+<img width="1920" height="911" alt="617910630-a530ae20-e017-4b1b-9656-edb6097a7c1b" src="https://github.com/user-attachments/assets/ac21fec3-e949-4ec9-9380-79d84efaf13f" />
+<img width="1920" height="947" alt="617974145-d7f488da-0b47-487f-a660-512b3da492ef" src="https://github.com/user-attachments/assets/a425d893-7e71-4d95-8e81-5d00d4b20807" />
 
 - hong-kong-project.analytics_332614377.draft_theme_table
   
@@ -108,7 +110,8 @@
 3.2 draft_title_table:
 - just dt (page title) , theme
 - 260 lines
-<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/87a4c400-ed1f-4b14-b5e8-208c6e7f6d10" />
+<img width="1920" height="947" alt="617974956-87a4c400-ed1f-4b14-b5e8-208c6e7f6d10" src="https://github.com/user-attachments/assets/11629767-3cdb-459c-9016-e37146f2f6d4" />
+
 
 - hong-kong-project.analytics_332614377.draft_title_table
 
@@ -124,10 +127,11 @@
 ### 4. Gemini table
 
 4.1 draft_title_table_with_ai
-- just use 260 lines  , can cover all user_whole_journey_table  , less the gemini usage 
-<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/c357ff01-d52d-44f2-960e-4d57ba651309" />
-<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/9ca5c05f-fc49-4c5c-a50c-902a750a1c14" />
-<img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/7e7ecfa4-86b7-444b-9bbc-fbfb56c7dc75" />
+- just use 260 lines  , can cover all user_whole_journey_table  , less the gemini usage
+<img width="1920" height="947" alt="617981013-c357ff01-d52d-44f2-960e-4d57ba651309" src="https://github.com/user-attachments/assets/1f055ff8-c117-4785-bf3b-31ac5713c58f" />
+<img width="1920" height="947" alt="617982036-9ca5c05f-fc49-4c5c-a50c-902a750a1c14" src="https://github.com/user-attachments/assets/a859cf32-dffe-45ac-aeba-750767772713" />
+<img width="958" height="910" alt="617985984-7e7ecfa4-86b7-444b-9bbc-fbfb56c7dc75" src="https://github.com/user-attachments/assets/f7532c98-dd84-49ed-9900-704af6214674" />
+
 
       -- For Gemini in BigQuery - Classify page titles only
       CREATE OR REPLACE TABLE `hong-kong-project.analytics_332614377.draft_title_table_with_ai` AS
@@ -157,7 +161,7 @@
 4.2 draft theme table with ai:
 - need 6605 lines then cover all user_whole_journey_table
 - add URL as supplementary information can make the result more accurate , but its requires frequent revisions
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/e4ab820c-8882-4d2b-b084-cea1566d37a2" />
+<img width="1920" height="911" alt="617910339-e4ab820c-8882-4d2b-b084-cea1566d37a2" src="https://github.com/user-attachments/assets/c3c22f0c-3ded-4fe5-946f-c5e3178731bf" />
 
       -- For Gemini in BigQuery
       CREATE OR REPLACE TABLE `hong-kong-project.analytics_332614377.draft_theme_table_with_ai` AS
@@ -186,10 +190,10 @@
 
 ## Here is an example of how to use BigQuery tables in Gemini.
 - ask for gemini 
-<img width="1919" height="1055" alt="image" src="https://github.com/user-attachments/assets/b25b4eb2-1297-41d5-87ee-d7f432286eb0" />
+<img width="1919" height="1055" alt="617473758-b25b4eb2-1297-41d5-87ee-d7f432286eb0" src="https://github.com/user-attachments/assets/ce2759f0-5677-46a7-a0f0-fb989007d763" />
 
 - Gemini table : 900 line now , total in 5/7/2026 are 6605
-<img width="1916" height="1002" alt="image" src="https://github.com/user-attachments/assets/5ba6c58d-2805-4f9c-8d83-984e733f87a0" />
+<img width="1916" height="1002" alt="617468065-5ba6c58d-2805-4f9c-8d83-984e733f87a0" src="https://github.com/user-attachments/assets/df47417b-a013-4f2e-8ca6-c3856fbefb44" />
 
 ## Dynamic Categories with a Categories Table
 Step 1: Create the Categories Table
@@ -254,14 +258,16 @@ Step 1: Create the Categories Table
       ]) AS category_name
       -- Remove duplicates by using DISTINCT
       QUALIFY ROW_NUMBER() OVER (PARTITION BY category_name ORDER BY category_name) = 1;
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/f35cd286-0848-4a7c-b025-2195bd0911f2" />
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/9161bb5b-c63e-425e-b50f-53d0ab949754" />
+
+<img width="1920" height="911" alt="618603017-f35cd286-0848-4a7c-b025-2195bd0911f2" src="https://github.com/user-attachments/assets/444089cb-396b-4123-a629-752410bb16cf" />
+<img width="1920" height="911" alt="618603203-9161bb5b-c63e-425e-b50f-53d0ab949754" src="https://github.com/user-attachments/assets/b03db2e8-6746-4f50-b100-5983533d960d" />
 
 
 Step 2: Create a Dynamic Stored Procedure
 - **Add a new category** : 
 
-<img width="1108" height="261" alt="image" src="https://github.com/user-attachments/assets/3f98be76-1a1e-4d03-b29b-3881a19f4320" />
+<img width="1108" height="261" alt="618604780-3f98be76-1a1e-4d03-b29b-3881a19f4320" src="https://github.com/user-attachments/assets/3b72ecce-9e20-48c8-b756-18bebad87c5f" />
+
 
       -- Add a new category (updated - fixed with dummy FROM)
       CREATE OR REPLACE PROCEDURE `hong-kong-project.analytics_332614377.add_category`(category_name_param STRING)
@@ -320,7 +326,8 @@ Step 2: Create a Dynamic Stored Procedure
         );
       END;
 Step 3: Create a Function to Get Categories 
-<img width="1444" height="379" alt="image" src="https://github.com/user-attachments/assets/9b437491-44ef-4854-9967-97aef1d6864d" />
+<img width="1444" height="379" alt="618608813-9b437491-44ef-4854-9967-97aef1d6864d" src="https://github.com/user-attachments/assets/c558b9dd-e7da-476b-90c2-64477449340b" />
+
 
       CREATE OR REPLACE FUNCTION `hong-kong-project.analytics_332614377.get_category_list`()
       RETURNS STRING
@@ -334,7 +341,8 @@ Step 3: Create a Function to Get Categories
 
 Step4. 
 - Test 1: to see what the function returns
-<img width="1399" height="346" alt="image" src="https://github.com/user-attachments/assets/aa783e85-158d-4522-9cb3-02e7d1133a9f" />
+<img width="1399" height="346" alt="618610274-aa783e85-158d-4522-9cb3-02e7d1133a9f" src="https://github.com/user-attachments/assets/9fd63589-d83c-41e8-b0d7-a07c791e7fa5" />
+
 
       SELECT 
         CONCAT(
@@ -351,7 +359,8 @@ Step4.
 
       SELECT `hong-kong-project.analytics_332614377.get_category_list`() AS category_list;
 
-<img width="1408" height="405" alt="image" src="https://github.com/user-attachments/assets/2c6debe1-b38b-4e8b-b88b-e408e5eab5b5" />
+<img width="1408" height="405" alt="618611605-2c6debe1-b38b-4e8b-b88b-e408e5eab5b5" src="https://github.com/user-attachments/assets/e7fcf599-736c-45d7-a961-32df6f495e3c" />
+
 
 - Test 4: Deactivate a category
 
@@ -362,13 +371,15 @@ Step4.
       SELECT * FROM `hong-kong-project.analytics_332614377.categories_master`
       WHERE LOWER(category_name) = LOWER('Test Category')
 
-<img width="1407" height="328" alt="image" src="https://github.com/user-attachments/assets/eba7ad8a-aee3-46ed-ad0c-2c3c3f3ab6a6" />
+<img width="1407" height="328" alt="618612442-eba7ad8a-aee3-46ed-ad0c-2c3c3f3ab6a6" src="https://github.com/user-attachments/assets/34e9e73f-eee1-4fe7-b3b8-c40d272e8b94" />
+
 
 -- Test 6: Permanent delete (use with caution - only if not in use)
 
       CALL `hong-kong-project.analytics_332614377.delete_category_permanent`('Test Category');
 
-<img width="1409" height="784" alt="image" src="https://github.com/user-attachments/assets/101885b7-cb5b-4670-b894-cd2dc873026d" />
+<img width="1409" height="784" alt="618612798-101885b7-cb5b-4670-b894-cd2dc873026d" src="https://github.com/user-attachments/assets/d87dbc18-7b55-44fd-861e-8848a1504472" />
+
 
 Step 5: Use the Function in Your Main Query
 
@@ -402,7 +413,8 @@ Step 5: Use the Function in Your Main Query
 ### 5. user theme journey table
 - with :draft_title_table_with_ai
       - Completed, all matches, but the Gemini analysis may contain some errors and is not accurate enough.
-<img width="1920" height="947" alt="image" src="https://github.com/user-attachments/assets/58ad1421-21bd-43df-8eb9-11420063e5c7" />
+<img width="1920" height="947" alt="617983279-58ad1421-21bd-43df-8eb9-11420063e5c7" src="https://github.com/user-attachments/assets/9e0cca81-83af-4ee8-b3f1-2c7b27bb3459" />
+
 - hong-kong-project.analytics_332614377.user_theme_journey_table
   
        CREATE OR REPLACE TABLE `hong-kong-project.analytics_332614377.user_theme_journey_table` AS
@@ -430,8 +442,9 @@ Step 5: Use the Function in Your Main Query
       
 - with :draft_theme_table_with_ai
       - Since draft_title_table_with_ai is not yet complete, there are null values.
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/f5bc4000-48aa-4f8a-9579-6f1fdbacaf1f" />
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/19397331-7837-4118-97b8-6a811d0a5661" />
+<img width="1920" height="911" alt="617908968-f5bc4000-48aa-4f8a-9579-6f1fdbacaf1f" src="https://github.com/user-attachments/assets/e10cce2a-9876-47e0-803b-97119a580491" />
+<img width="1920" height="911" alt="617909158-19397331-7837-4118-97b8-6a811d0a5661" src="https://github.com/user-attachments/assets/6d686482-fbbb-40af-b6b4-2495032a02b9" />
+
 - hong-kong-project.analytics_332614377.user_theme_journey_table
 
       -- Recreate user_theme_journey_table with user_pseudo_id
