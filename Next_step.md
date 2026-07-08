@@ -474,11 +474,13 @@ Step 5: Use the Function in Your Main Query
 
 ### 6. user_journey_summary
 - Create the user_journey_summary table using user_theme_journey_table, which contains all the en and theme columns (dynamic).
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/2cd8ba39-628b-414b-ab79-7b68b237d308" />
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/687fc34a-8e47-4aa0-a015-22024a7da7d0" />
 
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/2f931a8f-38b1-4023-9b55-9fea5b0be283" />
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/a82104a1-a2c5-43db-b37e-19bc0b7ae4e8" />
+<img width="1920" height="911" alt="617910091-2cd8ba39-628b-414b-ab79-7b68b237d308" src="https://github.com/user-attachments/assets/f5560e49-2d93-43ba-af6a-2202e32afce2" />
+<img width="1920" height="911" alt="617911278-687fc34a-8e47-4aa0-a015-22024a7da7d0" src="https://github.com/user-attachments/assets/0646c731-896d-49f9-a841-3b862c1706dc" />
+<img width="1920" height="911" alt="617911192-2f931a8f-38b1-4023-9b55-9fea5b0be283" src="https://github.com/user-attachments/assets/cb1c34c4-ad21-4250-90fe-167a6bc69495" />
+<img width="1920" height="911" alt="618546475-a82104a1-a2c5-43db-b37e-19bc0b7ae4e8" src="https://github.com/user-attachments/assets/4bff51ce-3f62-493d-869f-e699d02256c2" />
+
+
 
       BEGIN
         -- Step 1: DECLARE variables at the very beginning
@@ -839,32 +841,38 @@ Step 2: Create Gemini Remote Model (for Theme Classification)
         ENDPOINT = 'gemini-2.5-flash-lite'  -- or 'gemini-pro'
       );
 
-<img width="890" height="305" alt="image" src="https://github.com/user-attachments/assets/08fd7fce-5410-44d9-b4fe-d3cbd0b648a7" />
+<img width="890" height="305" alt="617918153-08fd7fce-5410-44d9-b4fe-d3cbd0b648a7" src="https://github.com/user-attachments/assets/2e93901b-7e5f-48cb-a4da-fed95ab8953c" />
+
 
 ## Useful Links
 - ML Model  : https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/5eca0b59-407a-461b-902d-cc99fb4d3713" />
+<img width="1920" height="911" alt="618537838-5eca0b59-407a-461b-902d-cc99fb4d3713" src="https://github.com/user-attachments/assets/b9b57a04-6b8d-47f6-987b-8c733056cdbf" />
+
 - BigQuery Model type 
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/2fce60e5-e54d-474d-b25d-4bd3915c6260" />
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/f4a6c9ee-0aa6-49e4-b364-74724374c6f1" />
+<img width="1920" height="911" alt="618538431-2fce60e5-e54d-474d-b25d-4bd3915c6260" src="https://github.com/user-attachments/assets/bb1ded0c-7029-44ed-8225-8535f8168dd5" />
+<img width="1920" height="911" alt="618538579-f4a6c9ee-0aa6-49e4-b364-74724374c6f1" src="https://github.com/user-attachments/assets/f2c031c8-e100-4c81-8d9e-3f4f163a852c" />
 
 
 - AutoML  : https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-create-automl
- <img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/d0e80a76-d1ad-4dd0-ab4a-00aff1cb92ea" />
+ <img width="958" height="910" alt="617924538-d0e80a76-d1ad-4dd0-ab4a-00aff1cb92ea" src="https://github.com/user-attachments/assets/9108cd53-59ce-4ee9-ad2d-2c1d395ec0b2" />
 
 - Gemini Enterprise Agent Platform : https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/access-control?hl=zh-tw
-<img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/483ee9a0-c6d9-4f18-a7a6-515a5762adff" />
+<img width="958" height="910" alt="617926338-483ee9a0-c6d9-4f18-a7a6-515a5762adff" src="https://github.com/user-attachments/assets/74f2dd35-1eb3-4ae6-9905-d41e52ad1012" />
+
 
 
 - AI.GENERATE_TEXT : https://docs.cloud.google.com/bigquery/docs/generate-text?hl=zh-tw
-<img width="958" height="913" alt="image" src="https://github.com/user-attachments/assets/eefb4d98-25aa-4a2b-bfbd-5d7d744af9ce" />
+<img width="958" height="913" alt="617923436-eefb4d98-25aa-4a2b-bfbd-5d7d744af9ce" src="https://github.com/user-attachments/assets/f96729c2-e1fe-448c-80bf-efd6cd7b6377" />
+
 
 - BigQuery AutoML Pricing : https://cloud.google.com/products/gemini-enterprise-agent-platform/pricing?hl=zh_tw
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/09686c77-7ee8-4674-8a84-21255376dcc3" />
+<img width="1920" height="911" alt="617912395-09686c77-7ee8-4674-8a84-21255376dcc3" src="https://github.com/user-attachments/assets/3563d30f-b967-4541-b779-124e8f106657" />
+
 
 - Gemini model Pricing : 
 https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing?authuser=0&hl=zh-tw#standard_1
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/71930f0b-718b-4bd8-91b4-cf0f7d1b9432" />
+<img width="1920" height="911" alt="617911967-71930f0b-718b-4bd8-91b4-cf0f7d1b9432" src="https://github.com/user-attachments/assets/9f703a2e-c28f-4f7e-a4b4-4376fef63602" />
+
 
 ## Cost Comparison: Querying in BigQuery vs. Transferring to SQL Server
 
@@ -921,14 +929,16 @@ When transferring data from BigQuery to SQL Server, you're typically paying for:
 ## Google Cloud Official Documentation
 
 - BigQuery Normal Pricing :  https://cloud.google.com/bigquery/pricing?hl=zh_tw#storage
-<img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/a0c6ac2a-4f03-42a5-92e1-f566d71a75c9" />
-<img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/5fde1b30-5fa3-4cf6-b437-21e867842fa3" />
+<img width="958" height="910" alt="617936404-a0c6ac2a-4f03-42a5-92e1-f566d71a75c9" src="https://github.com/user-attachments/assets/409379c5-d75b-4765-8d2e-77b39ee403b9" />
+<img width="958" height="910" alt="617936825-5fde1b30-5fa3-4cf6-b437-21e867842fa3" src="https://github.com/user-attachments/assets/7b77161d-f14c-4c3b-95c5-0659e1fe8d08" />
 
 - BigQuery Storage Read API Pricing : https://cloud.google.com/bigquery/pricing?hl=zh_tw#storage-read-api
-<img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/84356236-6c15-44de-b8b1-f40c6e491bea" />
-<img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/55dc2889-8943-40ef-87cd-8b284077565c" />
+<img width="958" height="910" alt="617933912-55dc2889-8943-40ef-87cd-8b284077565c" src="https://github.com/user-attachments/assets/5e6f5a9b-f9c2-46cd-8e3b-d2601a0fe747" />
+<img width="958" height="910" alt="617933142-84356236-6c15-44de-b8b1-f40c6e491bea" src="https://github.com/user-attachments/assets/0d8e0e1e-f1a5-404b-9170-dedc867ea7ea" />
+
 
 - Batch Loading : https://docs.cloud.google.com/bigquery/docs/batch-loading-data?hl=zh-tw
-<img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/010e710a-c157-45f6-8e4b-a6837bc92411" />
-<img width="958" height="910" alt="image" src="https://github.com/user-attachments/assets/415909c1-5c1a-4e26-8109-805c144e64a6" />
+<img width="958" height="910" alt="617934795-010e710a-c157-45f6-8e4b-a6837bc92411" src="https://github.com/user-attachments/assets/fa9c251d-1ed2-4d01-9512-e495084d7e9e" />
+<img width="958" height="910" alt="617935751-415909c1-5c1a-4e26-8109-805c144e64a6" src="https://github.com/user-attachments/assets/909c2f5a-bdf5-4d08-9311-3b8c5e80030a" />
+
 
