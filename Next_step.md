@@ -1,23 +1,27 @@
-## Week data ('20260701' AND '20260707')
+<img width="1920" height="957" alt="618560259-495e9b67-1da0-4500-8a34-c2f2b74cf362" src="https://github.com/user-attachments/assets/3eb19e25-4789-4ef6-b88c-2f873cf9f5a5" />## Week data ('20260701' AND '20260707')
 - user_whole_journey_table_week (1993893 lines)
 <img width="1920" height="911" alt="618556575-250777ba-583c-4635-bfae-e9ed76c2d799" src="https://github.com/user-attachments/assets/843807eb-0ef7-4971-a138-02b56d24e082" />
 
 <img width="1920" height="911" alt="618556665-3b54b016-239e-449e-b420-82f139b1d945" src="https://github.com/user-attachments/assets/9049d1ad-0555-4eae-8c5c-554b93a63aac" />
 
 - draft_title_table_week (1237 line)
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/8be6b5b4-953f-4987-9527-01b7283e69be" />
+<img width="1920" height="911" alt="618557455-8be6b5b4-953f-4987-9527-01b7283e69be" src="https://github.com/user-attachments/assets/7d5e18a2-f4ee-4513-b9fd-f182d3dcb909" />
+
 - draft_theme_table_week (60521 lines) 
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/43b7a847-c9a8-4e38-a161-122a27b69c74" />
+<img width="1920" height="911" alt="618558144-43b7a847-c9a8-4e38-a161-122a27b69c74" src="https://github.com/user-attachments/assets/bfab7a0d-806f-4568-b217-72eb59ae1cda" />
+
 - unique_user_count (feature table only 8152 lines )
-<img width="866" height="333" alt="image" src="https://github.com/user-attachments/assets/ec083817-0b13-4656-947f-97ef0d2321dd" />
+<img width="866" height="333" alt="618559247-ec083817-0b13-4656-947f-97ef0d2321dd" src="https://github.com/user-attachments/assets/1e3edd0a-c482-48ce-a9ae-7b69ac1f9d82" />
 
 
 ## month data ('20260601' AND '20260630')
 - user_whole_journey_table_month (1065584 lines)
-<img width="841" height="348" alt="image" src="https://github.com/user-attachments/assets/87eb2390-1322-4d5c-9ef8-1b39c5038bdc" />
-<img width="1920" height="957" alt="image" src="https://github.com/user-attachments/assets/495e9b67-1da0-4500-8a34-c2f2b74cf362" 
+<img width="841" height="348" alt="618559924-87eb2390-1322-4d5c-9ef8-1b39c5038bdc" src="https://github.com/user-attachments/assets/87272510-e61b-4d40-b115-a4f1201de202" />
+<img width="1920" height="957" alt="618560259-495e9b67-1da0-4500-8a34-c2f2b74cf362" src="https://github.com/user-attachments/assets/422c8395-c4c5-482c-8ff3-483f75518f34" />
+
 - draft_title_table_month (935 line)
-<img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/e559eacf-68b8-4c57-9d7d-7530dc5d45a7" />
+<img width="1920" height="911" alt="618561908-c74c7eb6-bdcf-4059-b6fa-a7f201a756e2" src="https://github.com/user-attachments/assets/4de03e52-eb11-445b-a3f6-23224155ec2d" />
+
 
 - draft_theme_table_month (42980 lines)
 <img width="1920" height="911" alt="image" src="https://github.com/user-attachments/assets/c74c7eb6-bdcf-4059-b6fa-a7f201a756e2" />
