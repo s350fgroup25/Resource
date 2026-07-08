@@ -2,7 +2,7 @@
 ## Week data ('20260701' AND '20260707')
 - user_whole_journey_table_week (1993893 lines)
 <img width="1920" height="911" alt="618556575-250777ba-583c-4635-bfae-e9ed76c2d799" src="https://github.com/user-attachments/assets/843807eb-0ef7-4971-a138-02b56d24e082" />
-<img width="1920" height="957" alt="618560259-495e9b67-1da0-4500-8a34-c2f2b74cf362" src="https://github.com/user-attachments/assets/3eb19e25-4789-4ef6-b88c-2f873cf9f5a5" />
+
 <img width="1920" height="911" alt="618556665-3b54b016-239e-449e-b420-82f139b1d945" src="https://github.com/user-attachments/assets/9049d1ad-0555-4eae-8c5c-554b93a63aac" />
 
 - draft_title_table_week (1237 line)
